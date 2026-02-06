@@ -1,0 +1,65 @@
+{
+  "node": {
+    "4069d4e848d031e22b1f7b42c2b112a99d7e5728d6": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": 3281,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_1",
+          "filename": "src/app/admin/availability/page.tsx"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_1",
+      "filename": "src/app/admin/availability/page.tsx"
+    },
+    "40c0dbd2b1afd0b4f6091e783e50fb9535a7a82bce": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": 3281,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "src/app/admin/availability/page.tsx"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/admin/availability/page.tsx"
+    },
+    "405c8eed28b795a6d9f3f76754da7e147c868d4a23": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": 3281,
+          "async": false,
+          "exportedName": "deleteBusyBlock",
+          "filename": "src/app/actions/availability.ts"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "exportedName": "deleteBusyBlock",
+      "filename": "src/app/actions/availability.ts"
+    },
+    "40eec52108212d802b31eab595bda846fb1dd72309": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": 3281,
+          "async": false,
+          "exportedName": "addBusyBlock",
+          "filename": "src/app/actions/availability.ts"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "exportedName": "addBusyBlock",
+      "filename": "src/app/actions/availability.ts"
+    }
+  },
+  "edge": {}
+}

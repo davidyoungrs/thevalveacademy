@@ -1,0 +1,96 @@
+{
+  "node": {
+    "40b8c1c22ab8e98a92af3aae39b36aaf7ef022d14a": {
+      "workers": {
+        "app/request/new/[moduleNo]/page": {
+          "moduleId": "[project]/.next-internal/server/app/request/new/[moduleNo]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/requests.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitTrainingRequest",
+          "filename": "src/app/actions/requests.ts"
+        }
+      },
+      "layer": {
+        "app/request/new/[moduleNo]/page": "action-browser"
+      },
+      "filename": "src/app/actions/requests.ts",
+      "exportedName": "submitTrainingRequest"
+    },
+    "7071eea652842acfddef1c5cb27751da7f5db7600c": {
+      "workers": {
+        "app/requests/[reference]/page": {
+          "moduleId": "[project]/.next-internal/server/app/requests/[reference]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/workflow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "processWorkflowAction",
+          "filename": "src/app/actions/workflow.ts"
+        }
+      },
+      "layer": {
+        "app/requests/[reference]/page": "action-browser"
+      },
+      "filename": "src/app/actions/workflow.ts",
+      "exportedName": "processWorkflowAction"
+    },
+    "4025de4bb833b62d78ab461153bc2de95ab362737b": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/availability/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/availability/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/actions/availability.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "src/app/admin/availability/page.tsx"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "filename": "src/app/admin/availability/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "4089b3d6564f1af1c3c9367bde1b91287bdf310c80": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/availability/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/availability/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/actions/availability.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_1",
+          "filename": "src/app/admin/availability/page.tsx"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "filename": "src/app/admin/availability/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_1"
+    },
+    "40163398ed6d0332e221d4dfb012092fe0a4333766": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/availability/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/availability/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/actions/availability.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addBusyBlock",
+          "filename": "src/app/actions/availability.ts"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "filename": "src/app/actions/availability.ts",
+      "exportedName": "addBusyBlock"
+    },
+    "40b75290b84ce9c1efe2a9a42890e901a7e9e5c65d": {
+      "workers": {
+        "app/admin/availability/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/availability/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/admin/availability/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/actions/availability.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteBusyBlock",
+          "filename": "src/app/actions/availability.ts"
+        }
+      },
+      "layer": {
+        "app/admin/availability/page": "rsc"
+      },
+      "filename": "src/app/actions/availability.ts",
+      "exportedName": "deleteBusyBlock"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "XnTzxfW/w7DXjCRi/frYPgy6UNbLT/inZd/g/p6JYwA="
+}

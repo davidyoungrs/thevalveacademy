@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --color-celeros-blue-DEFAULT: #1B365D;
+  --color-celeros-blue-light: #268BD4;
+  --color-celeros-blue-50: #f0f5fa;
+  --color-celeros-blue-100: #e0ebf5;
+  --color-celeros-blue-200: #c2d7eb;
+  --color-celeros-blue-300: #94bce0;
+  --color-celeros-blue-400: #5c9bd0;
+  --color-celeros-blue-500: #3a7ebd;
+  --color-celeros-blue-600: #2a639b;
+  --color-celeros-blue-700: #23507d;
+  --color-celeros-blue-800: #1B365D;
+  --color-celeros-blue-900: #1b3b5b;
+
+  --color-celeros-orange-DEFAULT: #E87722;
+  --color-celeros-orange-500: #E87722;
+  --color-celeros-orange-600: #c9621b;
+
+  --color-industrial-50: #f6f7f9;
+  --color-industrial-100: #eceef2;
+  --color-industrial-200: #d5dae2;
+  --color-industrial-300: #b0bcc8;
+  --color-industrial-400: #8496a7;
+  --color-industrial-500: #64798e;
+  --color-industrial-600: #4f6176;
+  --color-industrial-700: #404e60;
+  --color-industrial-800: #384351;
+  --color-industrial-900: #313944;
+  --color-industrial-950: #21262d;
+}
+
+:root {
+  --foreground-rgb: 27, 54, 93;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+  min-height: 100vh;
+}
+
+@layer base {
+
+  /* Prevent iOS 16px zoom */
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+
+  /* Ensure touch targets are large enough */
+  button,
+  [type="submit"],
+  [type="button"] {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 flex items-center justify-center gap-2 cursor-pointer;
+    /* Use standard ring color or manual via css to avoid apply complexity initially */
+    --tw-ring-color: var(--color-celeros-blue-500);
+  }
+
+  .btn-primary {
+    background-color: var(--color-celeros-blue-800);
+    color: white;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-celeros-blue-900);
+  }
+
+  .btn-primary:active {
+    transform: scale(0.95);
+  }
+
+  .btn-secondary {
+    background-color: var(--color-celeros-orange-DEFAULT);
+    color: white;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-celeros-orange-600);
+  }
+
+  .btn-secondary:active {
+    transform: scale(0.95);
+  }
+
+  .btn-outline {
+    border: 1px solid var(--color-celeros-blue-800);
+    color: var(--color-celeros-blue-800);
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-celeros-blue-50);
+  }
+
+  .btn-outline:active {
+    transform: scale(0.95);
+  }
+
+  .card {
+    @apply bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-gray-800;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 bg-white border border-gray-300 rounded outline-none text-gray-900 transition-all placeholder:text-gray-400;
+  }
+
+  .input-field:focus {
+    border-color: var(--color-celeros-blue-500);
+    box-shadow: 0 0 0 2px var(--color-celeros-blue-500);
+  }
+}

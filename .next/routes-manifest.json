@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
+      "page": "/quote/[reference]",
+      "regex": "^/quote/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPreference": "nxtPreference"
+      },
+      "namedRegex": "^/quote/(?<nxtPreference>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/request/new/[moduleNo]",
+      "regex": "^/request/new/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPmoduleNo": "nxtPmoduleNo"
+      },
+      "namedRegex": "^/request/new/(?<nxtPmoduleNo>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/requests/[reference]",
+      "regex": "^/requests/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPreference": "nxtPreference"
+      },
+      "namedRegex": "^/requests/(?<nxtPreference>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/availability",
+      "regex": "^/admin/availability(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/availability(?:/)?$"
+    },
+    {
+      "page": "/admin/modules",
+      "regex": "^/admin/modules(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/modules(?:/)?$"
+    },
+    {
+      "page": "/approver/inbox",
+      "regex": "^/approver/inbox(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/approver/inbox(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/requests",
+      "regex": "^/requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/requests(?:/)?$"
+    },
+    {
+      "page": "/trainer/inbox",
+      "regex": "^/trainer/inbox(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trainer/inbox(?:/)?$"
+    },
+    {
+      "page": "/unauthorized",
+      "regex": "^/unauthorized(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/unauthorized(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

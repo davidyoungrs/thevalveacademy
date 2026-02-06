@@ -1,0 +1,133 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// SQLite does not support native enums, using strings with TS-level validation
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  passwordHash  String
+  role          String    @default("SALES") // SALES, TRAINER, APPROVER, ADMIN
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  trainerProfile   TrainerProfile?
+  trainingRequests TrainingRequest[] @relation("Salesperson")
+  assignedRequests TrainingRequest[] @relation("AssignedTrainer")
+  approvals        Approval[]
+}
+
+model TrainerProfile {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+  bio       String?
+  busyBlocks BusyBlock[]
+  modules   ModuleTrainer[]
+}
+
+model BusyBlock {
+  id               String         @id @default(cuid())
+  trainerProfileId String
+  trainerProfile   TrainerProfile @relation(fields: [trainerProfileId], references: [id])
+  startDate        DateTime
+  endDate          DateTime
+  reason           String?
+}
+
+model Module {
+  id                     String          @id @default(cuid())
+  moduleNo               String          @unique
+  category               String
+  title                  String
+  durationDays           Float
+  description            String?
+  onlinePricePerAttendee Float           @default(100)
+  onsitePricePerAttendee Float           @default(200)
+  trainers               ModuleTrainer[]
+  requests               TrainingRequest[]
+}
+
+model ModuleTrainer {
+  id               String         @id @default(cuid())
+  moduleId         String
+  module           Module         @relation(fields: [moduleId], references: [id])
+  trainerProfileId String
+  trainerProfile   TrainerProfile @relation(fields: [trainerProfileId], references: [id])
+  priorityOrder    Int
+  
+  @@unique([moduleId, trainerProfileId])
+}
+
+model TrainingRequest {
+  id             String        @id @default(cuid())
+  reference      String        @unique // VA-YYYYMMDD-XXXX
+  customerName   String
+  customerEmail  String
+  numAttendees   Int
+  deliveryType   String        // ONLINE, ONSITE
+  siteDetails    String?
+  startDate      DateTime
+  endDate        DateTime
+  notes          String?
+  status         String        @default("SUBMITTED") // SUBMITTED, AWAITING_TRAINER_CONFIRMATION, etc.
+  finalPrice     Float
+  discountPercent Float         @default(0)
+  discountReason  String?
+  
+  salespersonId  String
+  salesperson    User          @relation("Salesperson", fields: [salespersonId], references: [id])
+  
+  trainerId      String?
+  assignedTrainer User?         @relation("AssignedTrainer", fields: [trainerId], references: [id])
+  
+  moduleId       String
+  module         Module        @relation(fields: [moduleId], references: [id])
+  
+  approvals      Approval[]
+  calendarEvents CalendarEvent[]
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+}
+
+model Approval {
+  id               String          @id @default(cuid())
+  requestId        String
+  request          TrainingRequest @relation(fields: [requestId], references: [id])
+  userId           String
+  user             User            @relation(fields: [userId], references: [id])
+  stage            String          // e.g., "TRAINER", "APPROVER_1", "APPROVER_2"
+  decision         String          // e.g., "APPROVED", "REJECTED", "PROPOSED_ALTERNATE"
+  reason           String?
+  alternateDatesJson String?       // If trainer proposes alternate dates
+  createdAt        DateTime        @default(now())
+}
+
+model CalendarEvent {
+  id               String          @id @default(cuid())
+  requestId        String
+  request          TrainingRequest @relation(fields: [requestId], references: [id])
+  trainerId        String
+  start            DateTime
+  end              DateTime
+  type             String          @default("TENTATIVE") // TENTATIVE, CONFIRMED
+  createdAt        DateTime        @default(now())
+}
+
+model EmailLog {
+  id        String   @id @default(cuid())
+  to        String
+  subject   String
+  body      String
+  status    String   // "SENT", "FAILED"
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/availability/page": "/admin/availability",
+  "/admin/modules/page": "/admin/modules",
+  "/admin/page": "/admin",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/approver/inbox/page": "/approver/inbox",
+  "/login/page": "/login",
+  "/page": "/",
+  "/quote/[reference]/page": "/quote/[reference]",
+  "/request/new/[moduleNo]/page": "/request/new/[moduleNo]",
+  "/requests/[reference]/page": "/requests/[reference]",
+  "/requests/page": "/requests",
+  "/trainer/inbox/page": "/trainer/inbox",
+  "/unauthorized/page": "/unauthorized"
+}

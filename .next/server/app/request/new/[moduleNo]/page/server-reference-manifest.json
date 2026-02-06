@@ -1,0 +1,20 @@
+{
+  "node": {
+    "405153160acd7ade814c552fd779c4942e805414ad": {
+      "workers": {
+        "app/request/new/[moduleNo]/page": {
+          "moduleId": 36433,
+          "async": false,
+          "exportedName": "submitTrainingRequest",
+          "filename": "src/app/actions/requests.ts"
+        }
+      },
+      "layer": {
+        "app/request/new/[moduleNo]/page": "action-browser"
+      },
+      "exportedName": "submitTrainingRequest",
+      "filename": "src/app/actions/requests.ts"
+    }
+  },
+  "edge": {}
+}

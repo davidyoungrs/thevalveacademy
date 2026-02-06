@@ -1,0 +1,629 @@
+[00:00:01.640] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.696] Server  LOG     ✓ Ready in 1593ms
+[00:02:28.553] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/request/new/VE01-01. Falling back to browser navigation. {}
+[00:02:28.554] Server  LOG     ✓ Compiled in 44ms
+[00:02:29.731] Server  LOG     ✓ Compiled in 43ms
+[00:06:29.951] Server  LOG     ✓ Compiled in 219ms
+[00:07:25.123] Server  LOG     ✓ Compiled in 49ms
+[00:07:25.228] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:25.332] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:26.638] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:27.704] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:29.567] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:29.567] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:30.570] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:30.570] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:31.836] Server  LOG     ✓ Compiled in 213ms
+[00:07:31.850] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:32.095] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:32.095] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:32.462] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:32.662] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:33.147] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:36.056] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:37.313] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:07:37.313] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:11.918] Server  LOG     ✓ Compiled in 140ms
+[00:08:12.162] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:13.338] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:23.329] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:23.659] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:23.799] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:23.799] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error The string did not match the expected pattern. {"error":{"message":"The string did not match the expected pattern.","name":"SyntaxError","stack":""},"message":"The string did not match the expected pattern.","url":"/api/auth/session"}
+[00:08:23.799] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:24.607] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:08:24.695] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:08:24.851] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:24.851] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:24.851] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:24.851] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:24.851] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:24.851] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `focus:ring-celeros-blue-500`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:53.995] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:58.848] Server  ERROR   ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:08:58.907] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:08:59.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:59.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:59.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:59.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:59.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:08:59.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/davidyoung/Desktop/Valve Academy web/src/app/globals.css:1:1: Cannot apply unknown utility class `bg-celeros-orange`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/davidyoung/Desktop/Valve Academy web/node_modules/@tailwindcss/postcss/dist/index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:09:31.308] Server  ERROR   ⨯ ReferenceError: navItems is not defined
+[00:09:32.783] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: navItems
+[00:09:54.498] Server  ERROR   ⨯ ReferenceError: navItems is not defined
+[00:09:54.675] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: navItems
+[00:10:26.479] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:26.498] Server  LOG     ✓ Compiled in 94ms
+[00:10:27.152] Browser WARN    Image with src "http://localhost:3000/celeros.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:15.511] Browser WARN    Image with src "http://localhost:3000/celeros.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:47.567] Browser WARN    Image with src "http://localhost:3000/celeros.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:33.433] Server  LOG     ✓ Compiled in 96ms
+[00:15:06.364] Server  LOG     ✓ Compiled in 38ms
+[00:15:31.235] Server  LOG     ✓ Compiled in 34ms
+[00:15:33.410] Server  LOG     ✓ Compiled in 73ms
+[00:15:37.993] Server  LOG     ✓ Compiled in 21ms
+[00:22:39.277] Server  LOG     ✓ Compiled in 237ms
+[00:23:36.972] Browser WARN    Image with src "http://localhost:3000/celeros.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:40.469] Browser WARN    Image with src "http://localhost:3000/celeros.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:50.060] Server  LOG     ✓ Compiled in 74ms
+[00:23:50.063] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:23:50.063] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:23:50.063] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:23:50.063] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:25:37.011] Server  LOG     ✓ Compiled in 36ms
+[00:27:51.365] Server  LOG     ✓ Compiled in 340ms
+[00:33:38.094] Server  LOG     ✓ Compiled in 32ms
+[00:34:31.534] Browser ERROR   Received NaN for the `%s` attribute. If this is expected, cast the value to a string. children
+[00:36:04.887] Server  LOG     ✓ Compiled in 26ms
+[00:36:11.389] Server  LOG     ✓ Compiled in 73ms
+[00:36:13.352] Server  LOG     ✓ Compiled in 43ms
+[00:38:01.620] Server  LOG     ✓ Compiled in 96ms
+[00:38:03.945] Server  LOG     ✓ Compiled in 72ms
+[00:40:30.095] Server  LOG     ✓ Compiled in 69ms
+[00:41:36.110] Server  LOG     ✓ Compiled in 30ms
+[00:42:45.228] Server  LOG     ✓ Compiled in 38ms
+[00:47:26.472] Server  LOG     ✓ Compiled in 209ms
+[00:48:21.021] Server  LOG     ✓ Compiled in 58ms
+[00:48:26.702] Server  LOG     ✓ Compiled in 43ms
+[00:52:37.754] Server  LOG       Reload env: .env
+[00:55:40.874] Server  LOG     ✓ Compiled in 65ms
+[00:55:59.792] Server  LOG     ✓ Compiled in 23ms
+[00:56:00.011] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Calendar
+[00:56:01.034] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:01.087] Server  LOG     ✓ Compiled in 91ms
+[00:56:01.228] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:01.252] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Load failed {"error":{"message":"Load failed","name":"TypeError"},"message":"Load failed","url":"/api/auth/session"}
+[00:59:40.042] Server  LOG     ✓ Compiled in 54ms
+[00:59:42.545] Server  LOG     ✓ Compiled in 33ms
+[01:02:25.642] Server  LOG     ✓ Compiled in 44ms
+[01:02:26.893] Server  LOG     ✓ Compiled in 68ms

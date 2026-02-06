@@ -1,0 +1,20 @@
+{
+  "node": {
+    "7062e699aa03441fd84b38e747106717a80ab31706": {
+      "workers": {
+        "app/requests/[reference]/page": {
+          "moduleId": 35087,
+          "async": false,
+          "exportedName": "processWorkflowAction",
+          "filename": "src/app/actions/workflow.ts"
+        }
+      },
+      "layer": {
+        "app/requests/[reference]/page": "action-browser"
+      },
+      "exportedName": "processWorkflowAction",
+      "filename": "src/app/actions/workflow.ts"
+    }
+  },
+  "edge": {}
+}

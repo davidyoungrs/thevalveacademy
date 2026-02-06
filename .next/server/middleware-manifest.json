@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/node_modules_next_dist_esm_build_templates_edge-wrapper_78fa9d6a.js",
+        "server/edge/chunks/[root-of-the-server]__7c8d7b0d._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_01326d21.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/admin/:path*"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/trainer(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/trainer/:path*"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/approver(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/approver/:path*"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/request(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/request/:path*"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/requests(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/requests/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "5jMT9_45LV05M_ukQlbtX",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "9MmmbWB8A1pirvHYVesMmhZuCINuAfU+o8ytLYr3gKI=",
+        "__NEXT_PREVIEW_MODE_ID": "1f08badb0aafe4d4c408ebb18427174f",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9a64b621325d35984e5f5055ba142a5d507d51908efc6698eeabcae8338006b4",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "2a7baa5df2fa8f0dcf0699e392e74fe7d9a0f52c1fdfa3303ec5498ba911eb44"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}

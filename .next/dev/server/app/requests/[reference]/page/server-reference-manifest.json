@@ -1,0 +1,20 @@
+{
+  "node": {
+    "7071eea652842acfddef1c5cb27751da7f5db7600c": {
+      "workers": {
+        "app/requests/[reference]/page": {
+          "moduleId": "[project]/.next-internal/server/app/requests/[reference]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/workflow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "processWorkflowAction",
+          "filename": "src/app/actions/workflow.ts"
+        }
+      },
+      "layer": {
+        "app/requests/[reference]/page": "action-browser"
+      },
+      "exportedName": "processWorkflowAction",
+      "filename": "src/app/actions/workflow.ts"
+    }
+  },
+  "edge": {}
+}
