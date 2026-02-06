@@ -9,6 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Valve Academy Training Portal",
     description: "Automated quoting and booking for valve training",
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/favicon.ico",
+        apple: "/icon.png",
+    },
 };
 
 export default function RootLayout({
