@@ -43,7 +43,7 @@ async function main() {
         },
         {
             moduleNo: 'VE02-01',
-            category: 'Operation & Maintenance',
+            category: 'Maintenance',
             title: 'M&J Valve Products - M-303 / RQ8',
             durationDays: 1,
             price: 750,
@@ -51,7 +51,7 @@ async function main() {
         },
         {
             moduleNo: 'VE02-02',
-            category: 'Operation & Maintenance',
+            category: 'Maintenance',
             title: 'M&J Valve Products - EG / CEG',
             durationDays: 1,
             price: 1500,
@@ -59,7 +59,7 @@ async function main() {
         },
         {
             moduleNo: 'VE02-03',
-            category: 'Operation & Maintenance',
+            category: 'Maintenance',
             title: 'M&J Valve Products - Danflo',
             durationDays: 1, // Changed from 2
             price: 1500,
@@ -67,7 +67,7 @@ async function main() {
         },
         {
             moduleNo: 'VE02-04',
-            category: 'Operation & Maintenance',
+            category: 'Maintenance',
             title: 'M&J Valve Products - 4 Way Divertor',
             durationDays: 2,
             price: 2250,
@@ -75,7 +75,7 @@ async function main() {
         },
         {
             moduleNo: 'VE02-05',
-            category: 'Operation & Maintenance',
+            category: 'Maintenance',
             title: 'Copes Vulcan DSCV Valve Products',
             durationDays: 2, // Changed from 3
             price: 2250,
@@ -83,7 +83,7 @@ async function main() {
         },
         {
             moduleNo: 'VE02-06',
-            category: 'Operation & Maintenance',
+            category: 'Maintenance',
             title: 'Copes Vulcan Globe Valve Products',
             durationDays: 2, // Changed from 3
             price: 2250,
