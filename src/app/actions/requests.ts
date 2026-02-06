@@ -137,19 +137,21 @@ export async function submitTrainingRequest(formData: any) {
             },
         });
 
-        // Send Confirmation to Customer
-        await sendEmail({
-            to: data.customerEmail,
-            subject: `Valve Academy Request Received: ${newRequest.reference}`,
-            html: emailTemplates.requestConfirmation(data.customerName, moduleData.title, newRequest.reference)
-        });
-
-        // Send Notification to Sales
-        await sendEmail({
-            to: "sales@valveacademy.com", // In production, use env var
-            subject: `New Training Request: ${newRequest.reference}`,
-            html: emailTemplates.newRequest(data.customerName, moduleData.title, newRequest.reference)
-        });
+        // Send Emails in Parallel to reduce latency
+        await Promise.allSettled([
+            // Send Confirmation to Customer
+            sendEmail({
+                to: data.customerEmail,
+                subject: `Valve Academy Request Received: ${newRequest.reference}`,
+                html: emailTemplates.requestConfirmation(data.customerName, moduleData.title, newRequest.reference)
+            }),
+            // Send Notification to Sales
+            sendEmail({
+                to: "sales@valveacademy.com", // In production, use env var
+                subject: `New Training Request: ${newRequest.reference}`,
+                html: emailTemplates.newRequest(data.customerName, moduleData.title, newRequest.reference)
+            })
+        ]);
 
         revalidatePath("/requests");
         return { success: true, reference: newRequest.reference };
